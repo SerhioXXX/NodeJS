@@ -9,6 +9,9 @@ emt.on('myEvent', function(){
     console.log(this);
 });
 
+//module.exports = exports = this;
+exports.x = 10;
+
 emt.on('myEvent', () => {
     console.log('Arrow function: ')
     console.log(this)
