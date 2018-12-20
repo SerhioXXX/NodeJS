@@ -10,7 +10,7 @@ GO
 CREATE TABLE [dbo].[items](
 	[id] [int] IDENTITY(1,1) NOT NULL,
 	[description] [nvarchar](50) NULL,
-	[nvarchar](30) NULL,
+	[description] [nvarchar](30) NULL,
  CONSTRAINT [PK_items] PRIMARY KEY CLUSTERED 
 (
 	[id] ASC
